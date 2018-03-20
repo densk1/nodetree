@@ -136,8 +136,6 @@ function Nodetree(basepath, opts) {
       });
     }
     
-    // ***************
-    // Carden's Edit
     if (!options.nodeModules) {
       children = children.filter(function optionNodeModules(child) {
         return !child.match(nodeModulesRegex);
@@ -148,7 +146,6 @@ function Nodetree(basepath, opts) {
         return !child.match(gitRegex);
       });
     }
-    // ***************
 
     if (options.directories) {
       // Only show directories

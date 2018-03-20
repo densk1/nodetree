@@ -5,7 +5,7 @@
 
 ## SYNOPSIS
 
-`nodetree`  \[`-ad`\]  \[`-L`  \<level>] \[`--noreport`] \[`--version`] \[`--help`] \[`--prune`] \[\<directory> ...]
+`nodetree`  \[`-ad`\]  \[`-L`  \<level>] \[`--noreport`] \[`--version`] \[`--help`] \[`--prune`] \[`--nodemodules`\] \[`--git`\] \[\<directory> ...]
 
 
 ## DESCRIPTION
